@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11967,10 +11967,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH" value="LED"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT" value="LED"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM" value="PWR"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM" value="OUT"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM" value="IN"/>
 </parts>
 <sheets>
 <sheet>
