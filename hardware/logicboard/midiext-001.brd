@@ -154,6 +154,8 @@
 <hole x="67" y="67" drill="3.2"/>
 <hole x="5" y="67" drill="3.2"/>
 <text x="63.5" y="68.58" size="1.27" layer="16" rot="MR0">MIDI Extender 0.1.0 by Pineapple.cc</text>
+<hole x="5.08" y="22.86" drill="2.9972"/>
+<hole x="5.08" y="48.26" drill="2.9972"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
