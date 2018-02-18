@@ -2,23 +2,23 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/kanaya/Documents/midi-extender/hardware/logicboard/midiext-001.brd
 
-Start at      : 10:48:52 (2018/02/17)
-End at        : 10:49:02 (2018/02/17)
-Elapsed time  : 00:00:09
+Start at      : 20:01:15 (2018/02/17)
+End at        : 20:01:23 (2018/02/17)
+Elapsed time  : 00:00:06
 
-Signals       :    24   RoutingGrid: 9 mil  Layers: 2
-Connections   :    63   predefined:  0 ( 0 Vias )
+Signals       :    20   RoutingGrid: 9 mil  Layers: 2
+Connections   :    57   predefined:  0 ( 0 Vias )
 
-Router memory :   459952
+Router memory :   244188
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:06  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Time per pass     :  00:00:04  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        63        63        63        63        63        63        63        63        63        63        63        63        63        63
+Routed            :        57        57        57        57        57        57        57        57        57        57        57        57        57        57
 Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 

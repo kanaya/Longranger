@@ -151,6 +151,7 @@
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0" layer="20"/>
 <hole x="5.08" y="2.54" drill="1.99898125"/>
 <hole x="5.08" y="22.86" drill="1.99898125"/>
+<text x="10.16" y="17.78" size="1.778" layer="1">+</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
