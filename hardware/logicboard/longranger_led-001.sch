@@ -1411,61 +1411,61 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT" value="LED"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM" value="PWR"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM" value="OUT"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM" value="IN"/>
+<part name="LED" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT"/>
+<part name="PWR" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="OUT" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="IN" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="2.54" y="2.54" size="1.778" layer="91">MIDI Extender LED Panel 0.1.0
+<text x="2.54" y="2.54" size="1.778" layer="91">MIDI Longranger LED Panel 1.0.0
 Copyright 2015-2018 by Pineapple.cc</text>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="10.16" y="17.78"/>
-<instance part="D1" gate="G$1" x="22.86" y="17.78" rot="R270"/>
-<instance part="D2" gate="G$1" x="30.48" y="20.32" rot="R270"/>
-<instance part="D3" gate="G$1" x="38.1" y="22.86" rot="R270"/>
+<instance part="LED" gate="G$1" x="10.16" y="17.78"/>
+<instance part="PWR" gate="G$1" x="22.86" y="17.78" rot="R270"/>
+<instance part="OUT" gate="G$1" x="30.48" y="20.32" rot="R270"/>
+<instance part="IN" gate="G$1" x="38.1" y="22.86" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$4" class="0">
+<net name="PWR" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="15.24" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="IN" gate="G$1" pin="A"/>
 <wire x1="43.18" y1="17.78" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="20.32" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="OUT" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <junction x="43.18" y="20.32"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <junction x="43.18" y="17.78"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="LED" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="17.78" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="LED" gate="G$1" pin="3"/>
+<pinref part="OUT" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="LED" gate="G$1" pin="4"/>
+<pinref part="IN" gate="G$1" pin="C"/>
 <wire x1="33.02" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
