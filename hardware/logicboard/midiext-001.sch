@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11532,12 +11532,12 @@ Based on the following sources:
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2" value="PWR"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2" value="MIDIIN"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2" value="MIDIRX"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH" value="MIDIOUT"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH" value="MIDITX"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH" value="LED"/>
+<part name="PWR" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="MIDIIN" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="MIDIRX" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="MIDIOUT" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
+<part name="MIDITX" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
+<part name="LED" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH"/>
 <part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*05" device="N" package3d_urn="urn:adsk.eagle:package:2008/1" technology="ALS"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -11591,12 +11591,12 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <instance part="SUPPLY2" gate="G$1" x="15.24" y="25.4"/>
 <instance part="SUPPLY1" gate="GND" x="15.24" y="35.56"/>
 <instance part="SUPPLY19" gate="GND" x="137.16" y="96.52"/>
-<instance part="J3" gate="G$1" x="5.08" y="20.32" rot="MR180"/>
-<instance part="J1" gate="G$1" x="5.08" y="101.6" rot="MR180"/>
-<instance part="J6" gate="G$1" x="147.32" y="43.18" rot="MR0"/>
-<instance part="J2" gate="J$1" x="5.08" y="48.26" rot="MR180"/>
-<instance part="J5" gate="J$1" x="147.32" y="109.22" rot="MR0"/>
-<instance part="J4" gate="G$1" x="144.78" y="76.2" rot="MR0"/>
+<instance part="PWR" gate="G$1" x="5.08" y="20.32" rot="MR180"/>
+<instance part="MIDIIN" gate="G$1" x="5.08" y="101.6" rot="MR180"/>
+<instance part="MIDIRX" gate="G$1" x="147.32" y="43.18" rot="MR0"/>
+<instance part="MIDIOUT" gate="J$1" x="5.08" y="48.26" rot="MR180"/>
+<instance part="MIDITX" gate="J$1" x="147.32" y="109.22" rot="MR0"/>
+<instance part="LED" gate="G$1" x="144.78" y="76.2" rot="MR0"/>
 <instance part="IC1" gate="A" x="50.8" y="45.72" rot="MR0"/>
 <instance part="IC1" gate="B" x="76.2" y="45.72" rot="MR0"/>
 <instance part="IC1" gate="C" x="101.6" y="81.28"/>
@@ -11677,19 +11677,19 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <wire x1="12.7" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="12.7" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="48.26" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J2" gate="J$1" pin="2"/>
+<pinref part="MIDIOUT" gate="J$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 <wire x1="137.16" y1="109.22" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J$1" pin="2"/>
+<pinref part="MIDITX" gate="J$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="E" pin="I"/>
@@ -11761,7 +11761,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
@@ -11777,7 +11777,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <segment>
 <pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
 <wire x1="137.16" y1="83.82" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11798,7 +11798,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <label x="119.38" y="106.68" size="1.778" layer="95"/>
 <wire x1="139.7" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <junction x="132.08" y="106.68"/>
-<pinref part="J5" gate="J$1" pin="1"/>
+<pinref part="MIDITX" gate="J$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11823,7 +11823,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <pinref part="OK1" gate="A" pin="C"/>
 <wire x1="50.8" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <junction x="33.02" y="99.06"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="MIDIIN" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RX+" class="0">
@@ -11836,7 +11836,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <label x="119.38" y="43.18" size="1.778" layer="95"/>
 <wire x1="132.08" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <junction x="132.08" y="43.18"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="MIDIRX" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX-" class="0">
@@ -11851,7 +11851,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <wire x1="134.62" y1="45.72" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="40.64" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
 <junction x="116.84" y="40.64"/>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="MIDIRX" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TX-" class="0">
@@ -11866,7 +11866,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <label x="119.38" y="104.14" size="1.778" layer="95"/>
 <wire x1="139.7" y1="111.76" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J$1" pin="3"/>
+<pinref part="MIDITX" gate="J$1" pin="3"/>
 </segment>
 </net>
 <net name="MIDIRX+" class="0">
@@ -11876,7 +11876,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <label x="17.78" y="101.6" size="1.778" layer="95"/>
 <wire x1="30.48" y1="106.68" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="MIDIIN" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="COM2" class="0">
@@ -11897,7 +11897,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="17.78" y="45.72" size="1.778" layer="95"/>
-<pinref part="J2" gate="J$1" pin="3"/>
+<pinref part="MIDIOUT" gate="J$1" pin="3"/>
 </segment>
 </net>
 <net name="MIDITX+" class="0">
@@ -11905,7 +11905,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
-<pinref part="J2" gate="J$1" pin="1"/>
+<pinref part="MIDIOUT" gate="J$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11947,14 +11947,14 @@ Copyright 2015-2018 by Pineapple.cc</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="LED" gate="G$1" pin="4"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="LED" gate="G$1" pin="3"/>
 <wire x1="139.7" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="78.74" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -11963,7 +11963,7 @@ Copyright 2015-2018 by Pineapple.cc</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="76.2" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
