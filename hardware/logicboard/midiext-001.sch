@@ -11551,7 +11551,7 @@ Based on the following sources:
 <sheets>
 <sheet>
 <plain>
-<text x="2.54" y="2.54" size="1.778" layer="91">MIDI Extender 1.0.0
+<text x="2.54" y="2.54" size="1.778" layer="91">MIDI Longranger 1.0.0
 Copyright 2015-2018 by Pineapple.cc</text>
 </plain>
 <instances>
