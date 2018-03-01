@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11552,7 +11552,7 @@ Based on the following sources:
 <sheet>
 <plain>
 <text x="2.54" y="2.54" size="1.778" layer="91">MIDI Longranger 1.0.0
-Copyright 2015-2018 by Pineapple.cc</text>
+Copyright 2015-2018  by Pineapple Design</text>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="33.02" y="45.72" rot="MR0"/>
