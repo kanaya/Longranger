@@ -2604,7 +2604,7 @@ Based on the following sources:
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2622,22 +2622,22 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="10mil"/>
-<param name="mdWirePad" value="10mil"/>
-<param name="mdWireVia" value="10mil"/>
-<param name="mdPadPad" value="10mil"/>
-<param name="mdPadVia" value="10mil"/>
-<param name="mdViaVia" value="10mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -2968,13 +2968,13 @@ design rules under a new name.</description>
 <wire x1="28.956" y1="40.64" x2="22.86" y2="34.544" width="0.254" layer="1"/>
 <wire x1="28.956" y1="40.894" x2="28.956" y2="40.64" width="0.254" layer="1"/>
 <wire x1="28.956" y1="40.894" x2="29.21" y2="40.64" width="0.254" layer="1"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.127" layer="1">
 <vertex x="0" y="0"/>
 <vertex x="36" y="0"/>
 <vertex x="36" y="72"/>
 <vertex x="0" y="72"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.127" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="36" y="0"/>
 <vertex x="36" y="72"/>
@@ -3204,6 +3204,10 @@ design rules under a new name.</description>
 <wire x1="6.096" y1="34.798" x2="6" y2="35" width="0.254" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,16,87b76f8f6f9087a8"/>
+<approved hash="3,1,87b76f8f6f9087a8"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
