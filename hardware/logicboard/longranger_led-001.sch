@@ -1407,7 +1407,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.127" drill="0.127">
+<clearance class="0" value="0.127"/>
 </class>
 </classes>
 <parts>
@@ -1420,7 +1421,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="2.54" y="2.54" size="1.778" layer="91">MIDI Longranger LED Panel 1.0.0
-Copyright 2015-2018 by Pineapple.cc</text>
+Copyright 2015-2018 by Pineapple Design</text>
 </plain>
 <instances>
 <instance part="LED" gate="G$1" x="10.16" y="17.78"/>
