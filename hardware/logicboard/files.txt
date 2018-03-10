@@ -1,0 +1,11 @@
+送付ファイルリスト
+
+longranger-001.cmp （部品面パターンデータ）
+longranger-001.gpi （レポートファイル）
+longranger-001.plc （部品面シルクデータ）
+longranger-001.sol （半田面パターンデータ）
+longranger-001.stc （部品面レジストデータ）
+longranger-001.sts （半田面レジストデータ）
+longranger-001.out （外形線データ）
+longranger-001.dri （ドリルリスト）
+longranger-001.drd （ドリルデータ）

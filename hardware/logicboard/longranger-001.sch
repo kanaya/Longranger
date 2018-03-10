@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11827,6 +11827,16 @@ Copyright 2015-2018  by Pineapple Design</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,180.34,58.42,IC1B,O,,,,"/>
+<approved hash="101,1,180.34,48.26,IC1C,O,,,,"/>
+<approved hash="101,1,180.34,38.1,IC1D,O,,,,"/>
+<approved hash="101,1,180.34,27.94,IC1E,O,,,,"/>
+<approved hash="101,1,180.34,17.78,IC1F,O,,,,"/>
+<approved hash="101,1,139.7,101.6,LEDPWR,1,,,,"/>
+<approved hash="113,1,142.917,61.0277,LED,,,,,"/>
+<approved hash="113,1,142.917,104.208,LEDPWR,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
