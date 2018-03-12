@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11708,7 +11708,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <wire x1="104.14" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="A"/>
 <wire x1="83.82" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
-<label x="91.44" y="43.18" size="1.778" layer="95"/>
+<label x="111.76" y="43.18" size="1.778" layer="95"/>
 <wire x1="104.14" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 <junction x="104.14" y="43.18"/>
 <pinref part="MIDIRX" gate="G$1" pin="1"/>
@@ -11721,7 +11721,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <wire x1="91.44" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<label x="91.44" y="40.64" size="1.778" layer="95"/>
+<label x="111.76" y="40.64" size="1.778" layer="95"/>
 <wire x1="132.08" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="45.72" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
@@ -11758,7 +11758,6 @@ Copyright 2015-2018  by Pineapple Design</text>
 <segment>
 <pinref part="OK1" gate="A" pin="VO"/>
 <wire x1="73.66" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
-<label x="76.2" y="76.2" size="1.778" layer="95"/>
 <pinref part="IC3" gate="G$1" pin="DI"/>
 </segment>
 </net>
@@ -11778,7 +11777,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <pinref part="MIDIOUT" gate="J$1" pin="1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="COM1" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RO"/>
 <wire x1="63.5" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -11795,14 +11794,15 @@ Copyright 2015-2018  by Pineapple Design</text>
 <wire x1="83.82" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="INDICATOR" class="0">
 <segment>
 <pinref part="FRONT" gate="G$1" pin="3"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+<label x="111.76" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MUTE" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="DE"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -11811,6 +11811,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <junction x="78.74" y="78.74"/>
 <pinref part="FRONT" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="111.76" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

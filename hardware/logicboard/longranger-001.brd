@@ -2604,7 +2604,7 @@ Based on the following sources:
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
-<designrules name="pban_5mil-l2">
+<designrules name="pban_5mil-l2 *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2622,12 +2622,12 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.53mm 1.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="0.229mm"/>
-<param name="mdWireVia" value="0.229mm"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="0.229mm"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
 <param name="mdSmdPad" value="5mil"/>
 <param name="mdSmdVia" value="5mil"/>
 <param name="mdSmdSmd" value="5mil"/>
@@ -3200,7 +3200,7 @@ design rules under a new name.</description>
 <wire x1="17.272" y1="64.008" x2="16.764" y2="64.516" width="0.254" layer="1"/>
 <wire x1="17.272" y1="64.008" x2="17.5" y2="64" width="0.254" layer="1"/>
 </signal>
-<signal name="N$1">
+<signal name="COM1">
 <contactref element="IC2" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="IC1" pad="3"/>
@@ -3220,14 +3220,14 @@ design rules under a new name.</description>
 <wire x1="4.318" y1="29.972" x2="4.318" y2="27.94" width="0.254" layer="16"/>
 <wire x1="2.54" y1="31.75" x2="4.318" y2="29.972" width="0.254" layer="16"/>
 </signal>
-<signal name="N$4">
+<signal name="INDICATOR">
 <contactref element="FRONT" pad="3"/>
 <contactref element="R5" pad="1"/>
 <wire x1="8.382" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="16"/>
 <wire x1="6.096" y1="18.034" x2="8.382" y2="20.32" width="0.254" layer="16"/>
 <wire x1="6.096" y1="18.034" x2="6" y2="18" width="0.254" layer="16"/>
 </signal>
-<signal name="N$6">
+<signal name="MUTE">
 <contactref element="IC3" pad="3"/>
 <contactref element="R4" pad="2"/>
 <contactref element="FRONT" pad="4"/>
